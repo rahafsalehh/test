@@ -34,7 +34,7 @@ controls.enableDamping = true;
 const loader = new OBJLoader();
 
 loader.load(
-    'models/Male.OBJ',
+    'chair.fbx',
     (object) => {
         scene.add(object);
 
